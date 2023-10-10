@@ -68,3 +68,56 @@ Is 2 an even number? true
 Is 5 an even number? false
 */
 
+var num1 = 2;
+var num2 = 5;
+var test1 = num1 % 2;
+var test2 = num2 % 2;
+var result1 = test1 == 0;
+var result2 = test2 == 0;
+console.log("Is", num1, "an even number?", result1);
+console.log("Is", num2, "an even number?", result2);
+
+/*
+Task 4: Add numbers using the + operator
+Console log the result of adding two numbers, 5 and 10, using the + operator.
+
+Note: This task should be completed on a single line of code. The output in the console should be 15.
+*/
+
+console.log(5+10);
+
+/*
+Task 5: Concatenate numbers and strings using the + operator
+Code three variables:
+
+The first variable should be a string with the following value: "Now in ". Name the variable now.
+
+The second variable should be a number with the value: 3. Name the variable three.
+
+The third variable should a string with the following value: "D!". Name the variable d.
+
+Console log the following code: now + three + d.
+
+Note: The expected output should be: "Now in 3D!".*/
+
+var now = "Now in ";
+var three = 3;
+var d = "D!";
+console.log(now + three + d);
+
+/*
+Task 6: Use the += operator to accumulate values in a variable
+Code a new variable and name it counter, assigning it to the value of 0.
+
+On the next line, use the += operator to increase the value of counter by 5.
+
+On the next line, use the += operator to increase the value of counter by 3.
+
+On the fourth line, console log the value of the counter variable.
+
+Note: The output value should be 8.
+*/
+var counter = 0;
+counter += 5;
+counter += 3;
+console.log(counter);
