@@ -111,19 +111,19 @@ Final Note:
 Understanding when to use each data type is crucial for efficient coding. Knowing the specific use cases of each data type will improve your coding skills.
 
 ## Operators
-Operators are used to perform operations on variables and values.
-They manipulate individual data items and return a result.
-Assignment operators are used for simple and complex calculations.
-They include addition (+), subtraction (-), division (/), and multiplication (*).
-Comparison operators compare values and return a logical value based on the comparison.
-Examples include greater than (>), less than (<), equal to (==), and not equal to (!=).
-Logical operators determine if something is true or false.
-Examples include AND (&&), OR (||), and NOT (!).
-Comments in JavaScript are used to specify which lines to ignore.
-They are crucial for code readability and documentation.
-True and false are special values used in JavaScript for logical comparisons.
-Double equals (==) is used for comparison, while a single equal (=) is used for assignment.
-Understanding operators is essential for programming in JavaScript.
+- Operators are used to perform operations on variables and values.
+- They manipulate individual data items and return a result.
+- Assignment operators are used for simple and complex calculations.
+- They include addition (+), subtraction (-), division (/), and multiplication (*).
+- Comparison operators compare values and return a logical value based on the comparison.
+- Examples include greater than (>), less than (<), equal to (==), and not equal to (!=).
+- Logical operators determine if something is true or false.
+- Examples include AND (&&), OR (||), and NOT (!).
+- Comments in JavaScript are used to specify which lines to ignore.
+- They are crucial for code readability and documentation.
+- True and false are special values used in JavaScript for logical comparisons.
+- Double equals (==) is used for comparison, while a single equal (=) is used for assignment.
+- Understanding operators is essential for programming in JavaScript.
 
 ### Number Operators
 No brackets mean following standard mathematical operations.
