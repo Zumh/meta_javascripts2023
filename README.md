@@ -22,9 +22,8 @@ Allows you to express ideas about code.
 Can be added to existing code for future reference.
 Facilitates communication with team members.
 Can be used for explanations, questions, marking code as "to do" or "to improve," or for debugging.
-The Semi-colon in JavaScript
 
-### Semi colon
+### The Semi-colon in JavaScript
 Similar to a period in English, used to delimit parts of the code.
 Automatic Semi-Colon Insertion (ASI) can fill in missing semi-colons, making them somewhat optional.
 Using the Console in Developer Tools
