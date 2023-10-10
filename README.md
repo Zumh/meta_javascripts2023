@@ -145,8 +145,8 @@ concatenation operato > +=
 
 ### Operator assciatives
 There are two kinds: 
-    left-to-right associativity
+- left-to-right associativity
 
-    right-to-left associativity
+- right-to-left associativity
 var num = 10; // the value on the right is assigned to the variable name on the left
 5 > 4 > 3; // the 5 > 4 is evaluated first (to `true`), then true > 3 is evaluated to `false`, because the `true` value is coerced to `1`
