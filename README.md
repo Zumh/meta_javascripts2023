@@ -1,6 +1,19 @@
 https://www.coursera.org/professional-certificates/meta-front-end-developer
 
 ## Java scripts Basic notes
+### History
+JavaScript's origins: Created in 1995 by Brendan Eich in just 10 days for Netscape browser version 2.
+Initial name: Originally called LiveScript, but later renamed to JavaScript for marketing purposes, despite no relation to Java.
+Early use: Initially used for simple interactivity on webpages, such as mouseover effects.
+Scripting in HTML: JavaScript code was added within <script> HTML elements on webpages.
+Growth of JavaScript: Evolved into a powerful language and is now one of the top three commonly used languages.
+ECMA's involvement: In 1996, Netscape partnered with ECMA to draft the JavaScript language specification, leading to the first edition of ECMAScript in 1997 (ECMA-262 standard).
+JavaScript as an implementation: It only exists as an implementation and requires a JavaScript engine to run.
+Traditional browser environment: JavaScript engines were primarily used within browsers to enhance internet usage.
+Interaction with JavaScript engine: Developers write JavaScript code to communicate with a JavaScript engine.
+Browser APIs: JavaScript engines offer ways to interact with other parts of the browser, known as Browser APIs.
+Node.js introduction (2009): Ryan Dahl created Node.js, allowing JavaScript to be used outside of the browser as a standalone program, on the command line, or as a server-side environment.
+JavaScript's ubiquity: JavaScript now runs in browsers, servers, and on various devices with JavaScript engine support.
 
 ### Comments in JavaScript
 
