@@ -134,8 +134,8 @@ Division (/)
 Modulus (%)
 
 ### String literal
-""
-''
+- double quote string ""
+- single quote string ''
 ### Boolean data type
 <,>, ==, ===, !=
 true || false
