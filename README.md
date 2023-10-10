@@ -119,3 +119,10 @@ Subtraction (-)
 Multiplication (*)
 Division (/)
 Modulus (%)
+
+### String literal
+""
+''
+### Boolean data type
+<,>, ==
+true || false
