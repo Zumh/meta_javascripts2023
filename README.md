@@ -26,9 +26,8 @@ Can be used for explanations, questions, marking code as "to do" or "to improve,
 ### The Semi-colon in JavaScript
 Similar to a period in English, used to delimit parts of the code.
 Automatic Semi-Colon Insertion (ASI) can fill in missing semi-colons, making them somewhat optional.
-Using the Console in Developer Tools
 
-### Console tools on Chrome browser
+### Using the Console in Developer Tools
 JavaScript can be executed in the browser's Developer Tools.
 Use Google Chrome for this course.
 Pressing SHIFT + ENTER allows typing multiple lines of code before running.
