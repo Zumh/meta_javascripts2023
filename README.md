@@ -138,11 +138,11 @@ No brackets mean following standard mathematical operations.
 - double quote string ""
 - single quote string ''
 ### Boolean data type
-<,>, ==, ===, !=
-true || false
-only compare value > 100 == "100" > true
-strict equal compare type and value > 100 === "100" > false
-concatenation operato > +=
+- <,>, ==, ===, !=
+- true || false
+- only compare value > 100 == "100" > true
+- strict equal compare type and value > 100 === "100" > false
+- concatenation operato > +=
 
 ### Operator assciatives
 There are two kinds: 
