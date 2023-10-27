@@ -138,3 +138,48 @@ By adjusting the counter initialization, end condition, and the increment or dec
 - Important Note:
 
 Ensure that the loop has an exit condition to prevent it from running indefinitely, and specify when the loop should terminate. In the example, the loop terminates when 'i' is greater than 3, meaning after the count from 1 to 3, the loop exits.
+
+### While Loop:
+
+Used for repetitive tasks, similar to the for loop but with differences.
+Requires setting the counter value before the loop.
+- Counter Variable (counter):
+
+Must be defined before the loop and controls the exit condition.
+In the example, a variable called "counter" is created and set to 3.
+- While Loop Structure:
+
+The exit condition is specified in the loop declaration's parentheses.
+JavaScript checks this condition; if it returns true, the loop runs.
+Example: Countdown to "Happy New Year" using a while loop:
+
+```javascript
+
+let counter = 3;
+
+while (counter > 0) {
+  console.log(counter);
+  counter--;
+}
+
+console.log("Happy New Year");
+```
+- Explanation:
+
+The while loop starts with the declaration and the exit condition, (counter > 0). It checks whether counter is greater than 0.
+The code block inside the while loop specifies what to do. In this example, it uses console.log to print the current value of counter.
+After logging the value, the counter is decremented by 1 (counter--).
+- Result:
+
+The loop starts with counter as 3, and it runs as long as counter is greater than 0.
+It prints the current value of counter (3, 2, 1) and decrements counter by 1 in each iteration.
+Once counter reaches 0, the exit condition returns false, and the loop terminates.
+The "Happy New Year" greeting is displayed after the loop.
+- Important Points:
+
+In a while loop, the counter value must be updated within the loop to eventually meet the exit condition.
+The exit condition determines when the loop should stop. In this case, it's when counter becomes 0.
+The while loop is suitable when you have a condition that might change during the loop execution.
+Practice:
+
+You can customize the initial value of counter and the exit condition for different countdowns or loops with varying conditions.
