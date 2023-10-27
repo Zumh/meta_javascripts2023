@@ -150,3 +150,50 @@ house.windows = 10; // Add a new property
 house.windows = 11; // Update an existing property
 ```
 Object literals and the dot notation provide a flexible and readable way to create, manipulate, and extend objects in JavaScript. These tools are commonly used to represent and work with various entities and data structures in your code.
+
+## Brack Notation
+- Brackets Notation:
+
+The brackets notation is an alternative syntax to the dot notation for working with objects in JavaScript.
+It allows you to use square brackets to access or modify object properties.
+Example:
+
+```javascript
+
+house2["rooms"] = 4;
+house2['color'] = "pink";
+```
+- Property Keys as Strings:
+
+In the brackets notation, property keys are treated as strings, so they are enclosed in either single or double quotes.
+Property keys are essentially treated as string literals.
+Example:
+
+```javascript
+
+car["number of doors"] = 4;
+```
+- Property Names with Spaces:
+
+Brackets notation allows you to include space characters in property names, which is not possible with dot notation.
+Example:
+
+```javascript
+
+car["number of doors"] = 4;
+```
+- Property Keys as Expressions:
+
+One significant advantage of brackets notation is its ability to evaluate expressions as property keys.
+This is useful for dynamically accessing properties based on variable values or iterating through object properties.
+Example:
+
+```javascript
+
+var arrOfKeys = ['speed', 'altitude', 'color'];
+for (var i = 0; i < arrOfKeys.length; i++) {
+    console.log(drone[arrOfKeys[i]]);
+}
+```
+
+The brackets notation provides flexibility in handling object properties, enabling you to work with dynamic property names and include spaces within property keys. This makes it a valuable tool for various programming scenarios.
