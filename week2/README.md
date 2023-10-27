@@ -76,3 +76,77 @@ function listArrayItems(arr) {
 }
 ```
 By building and calling functions, you can create reusable code that processes arrays, displays array items, and incorporates conditional logic to modify the output as needed. Functions allow for organized and efficient code that can be used for various tasks.
+
+## Objects
+- Object Literals and the Dot Notation:
+
+- Object Literal Syntax:
+
+One common way to build objects in JavaScript is by using the object literal syntax, which involves curly braces {}.
+Example:
+
+```javascript
+
+var user = {}; // Create an object using the object literal syntax
+```
+- Assigning to Variables:
+
+It's common to assign an object literal to a variable for further manipulation and extension.
+Variables provide a reference to the object, allowing you to work with it.
+Example:
+
+```javascript
+
+var assistantManager = {
+    rangeTilesPerTurn: 3,
+    socialSkills: 30,
+    // ...
+};
+```
+- Key-Value Pairs:
+
+Object literals can be immediately built by specifying properties and their values using key-value pairs inside the curly braces.
+Example:
+
+```javascript
+
+var table = {
+    legs: 3,
+    color: "brown",
+    priceUSD: 100,
+};
+```
+- Accessing Properties:
+
+You can access an object and its properties by console logging the object itself or specific properties using dot notation.
+Example:
+
+```javascript
+
+console.log(table); // Display the entire object
+console.log(table.color); // Access and display the 'color' property
+```
+- Building Objects Dynamically:
+
+You can create objects by first saving an empty object literal to a variable and then using the dot notation to declare and assign properties on the fly.
+Example:
+
+```javascript
+
+var house2 = {};
+house2.rooms = 4;
+house2.color = "pink";
+house2.priceUSD = 12345;
+```
+- Combining Approaches:
+
+You can combine both object literal and dot notation approaches to create and update properties of an object.
+Example:
+
+```javascript
+
+console.log(house); // Display the object
+house.windows = 10; // Add a new property
+house.windows = 11; // Update an existing property
+```
+Object literals and the dot notation provide a flexible and readable way to create, manipulate, and extend objects in JavaScript. These tools are commonly used to represent and work with various entities and data structures in your code.
