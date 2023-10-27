@@ -58,7 +58,6 @@ They allow you to group related actions together and call them whenever needed w
 Example:
 
 ```javascript
-Copy code
 let result1 = addNumbers(10, 20);
 let result2 = addNumbers(5, 7);
 // You can call the same function with different arguments to perform different calculations.
