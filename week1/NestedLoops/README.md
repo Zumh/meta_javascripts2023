@@ -57,3 +57,79 @@ Output: Division table showing results for various combinations of i and j.
 - Encouragement to Experiment:
 
 Encourages experimentation with different combinations of nested loop iterations to explore various outputs.
+
+## Nested Loops:
+
+Used for performing multiple tasks simultaneously or for combinations of tasks.
+In JavaScript, loops can be nested within one another.
+Example:
+```javascript
+for (var i = 1; i <= 3; i++) {
+    for (var j = 1; j <= 2; j++) {
+        console.log(i, j);
+    }
+}
+```
+- Custom Multiplication Table:
+
+Nested loops can create a custom multiplication table.
+The outer loop handles the first number, and the inner loop handles the second number.
+Example:
+```javascript
+
+for (var firstNum = 1; firstNum <= 3; firstNum++) {
+    for (var secondNum = 1; secondNum <= 3; secondNum++) {
+        console.log(firstNum * secondNum);
+    }
+}
+```
+- Output for Single Loop:
+
+Shows the output of a single loop where a variable ranges within a given range.
+Example:
+```javascript
+
+for (var i = 0; i < 5; i++) {
+    console.log(i);
+}
+```
+- Combining Nested Loops:
+
+Demonstrates combining two loops to create a sequence of values.
+Example:
+```javascript
+
+for (var i = 1; i <= 2; i++) {
+    for (var j = 1; j <= 3; j++) {
+        console.log(i, j);
+    }
+}
+```
+- Output with Multiplication:
+
+Demonstrates updating console.log() to show multiplication results.
+Example:
+```javascript
+
+for (var i = 1; i <= 3; i++) {
+    for (var j = 1; j <= 3; j++) {
+        console.log(i + " * " + j + " = " + i * j);
+    }
+}
+```
+
+- Custom Division Table:
+
+Illustrates the creation of a custom division table using nested loops.
+Example:
+```javascript
+
+for (var i = 10; i >= 5; i -= 5) {
+    for (var j = 2; j <= 5; j++) {
+        console.log(i + " / " + j + " = " + i / j);
+    }
+}
+```
+- Encouragement to Experiment:
+
+Encourages experimenting with different nested loop combinations for varying outputs.
