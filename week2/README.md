@@ -197,3 +197,60 @@ for (var i = 0; i < arrOfKeys.length; i++) {
 ```
 
 The brackets notation provides flexibility in handling object properties, enabling you to work with dynamic property names and include spaces within property keys. This makes it a valuable tool for various programming scenarios.
+
+## Arrays and Objects:
+
+- Arrays in JavaScript:
+
+Arrays in JavaScript are a type of object. This means that arrays have built-in properties and methods, just like regular objects.
+Example:
+
+```javascript
+
+var fruits = [];
+```
+- push() Method:
+
+The push() method is a common array method used to add new items to the end of an array.
+Example:
+
+```javascript
+
+fruits.push("apple"); // ['apple']
+fruits.push("pear"); // ['apple', 'pear']
+```
+- pop() Method:
+
+The pop() method is used to remove the last item from an array.
+Example:
+
+```javascript
+
+fruits.pop(); // Removes 'pear' from the array
+```
+- Building Arrays with Functions:
+
+You can create functions to build arrays by using methods like push() within the function.
+Example:
+
+```javascript
+
+function arrayBuilder(one, two, three) {
+    var arr = [];
+    arr.push(one);
+    arr.push(two);
+    arr.push(three);
+    return arr;
+}
+```
+- Returning Arrays from Functions:
+
+Functions can be designed to return the newly built array, which can then be assigned to a variable.
+Example:
+
+```javascript
+
+var simpleArr = arrayBuilder('apple', 'pear', 'plum');
+console.log(simpleArr); // ['apple', 'pear', 'plum']
+```
+Arrays in JavaScript are a versatile data structure, and understanding their built-in methods like push() and pop() allows you to manipulate and work with arrays effectively. These methods are useful for adding and removing elements from arrays, and you can use them to build more complex functions and scripts.
