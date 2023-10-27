@@ -72,7 +72,7 @@
 - Examples show how to join or separate multiple text pieces in the console output.
 - These points cover essential concepts for writing JavaScript code, including comments, semicolons, using the console, and formatting output.
 
-#### Variables
+### Variables
 - Empty JavaScript Program: Think of an empty JavaScript program as the first level of a sandbox game. It provides an underlying structure for building code.
 - Variables: Variables are essential for saving and reusing data in JavaScript.
 - Variable Declaration: To declare a variable, use the keyword "var" followed by the variable name (e.g., "var person;"). This informs JavaScript that you want to reuse a specific value.
@@ -80,3 +80,15 @@
 - Console Output: The "console.log" method is used to output values to the console. You can combine static text with dynamic variables in console.log.
 - Reassigning Variables: Variables can be reassigned with new values, allowing you to change their content as needed. For example, you can change "greeting" from "hello" to "hi" or "person" from "John" to "James."
 - Power of Variables: Variables enable you to use the same code to produce different results by changing variable values. This flexibility makes programs versatile.
+
+### Exercise: Declaring Variables
+
+### Data types
+- Data Types Analogy: Programming is like sorting and packing belongings when moving. It's about efficiently using different data types to store information.
+- Primitive Data Types: JavaScript has seven primitive data types: string, number, Boolean, null, undefined, BigInt, and symbol.
+- Strings and Numbers: Strings are for text values, while numbers are for numerical values. Distinction between them is important due to different rules.
+- Number Data Type: Numbers in JavaScript have a wide range but are limited by JavaScript's calculation capabilities.
+- String Data Type: Strings have almost infinite combinations of characters and are great for storing titles and descriptions.
+- Other Data Types: The Boolean data type has values "true" and "false" for making decisions. "Null" represents the absence of value, and "undefined" refers to variables with no assigned value.
+- ES6 Additions: ES6 introduced two new data types: BigInt for large numbers and symbol for unique identifiers.
+- Applying Data Types: Using the right data type for specific values and tasks is essential for efficient coding.
