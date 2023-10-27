@@ -1,153 +1,43 @@
-https://www.coursera.org/professional-certificates/meta-front-end-developer
+## INTRO
+### Introduction to Programming:
 
-## Java scripts Basic notes
-### History
-- JavaScript's origins: Created in 1995 by Brendan Eich in just 10 days for Netscape browser version 2.
-- Initial name: Originally called LiveScript, but later renamed to JavaScript for marketing purposes, despite no relation to Java.
-- Early use: Initially used for simple interactivity on webpages, such as mouseover effects.
-- Scripting in HTML: JavaScript code was added within <script> HTML elements on webpages.
-- Growth of JavaScript: Evolved into a powerful language and is now one of the top three commonly used languages.
-- ECMA's involvement: In 1996, Netscape partnered with ECMA to draft the JavaScript language specification, leading to the first edition of ECMAScript in 1997 (ECMA-262 standard).
-- JavaScript as an implementation: It only exists as an implementation and requires a JavaScript engine to run.
-- Traditional browser environment: JavaScript engines were primarily used within browsers to enhance internet usage.
-- Interaction with JavaScript engine: Developers write JavaScript code to communicate with a JavaScript engine.
-- Browser APIs: JavaScript engines offer ways to interact with other parts of the browser, known as Browser APIs.
-- Node.js introduction (2009): Ryan Dahl created Node.js, allowing JavaScript to be used outside of the browser as a standalone program, on the command line, or as a server-side environment.
-- JavaScript's ubiquity: JavaScript now runs in browsers, servers, and on various devices with JavaScript engine support.
+- Programming involves providing computers with instructions using a programming language.
+- JavaScript is an example of a programming language for communication with computers.
+- Daily modern activities often involve computer programs and interactions.
+- Computer programs are sets of instructions that guide computer actions in specific scenarios.
+- Software programs run on physical hardware machines.
+- Programming is the process of writing instructions to complete tasks.
+- Programming languages facilitate communication between computers and people.
+- Programming languages are stored in binary code, represented by zeros and ones, which are electrical switches.
+- High-level languages like JavaScript need to be converted to binary code for CPU comprehension.
+- High-level languages serve as tools to communicate with the CPU.
+- Programming has a significant impact on various aspects of daily life.
 
-### Comments in JavaScript
+### Why JavaScript (Js)?
 
-- Two types: Single-line comments and Multi-line comments.
-- Syntax for single-line comments: // this is a comment!
-- Syntax for multi-line comments:
-arduino
-Copy code
-/*
-this
-is
-a
-multi-line
-comment
-*/
-- Why Writing Comments is Empowering
+- JavaScript adds interactivity to web pages and is vital for web development.
+- It has been the primary client-side interaction language since 1995.
+- JavaScript enables real-time updates on web pages, such as interactive maps and client-side form validation.
+- Its enduring popularity is due to backward compatibility, ensuring older websites still work.
+- Browsers are capable of interpreting and executing JavaScript, making it fundamental for web development.
+- JavaScript is user-friendly and accessible, making it a preferred choice for programming newcomers.
+- It is extensively used in web development, both on the client and server side, with various frameworks and tools.
+- JavaScript has a large development community, offering support and guidance to learners.
+- Learning JavaScript can serve as a stepping stone to other programming languages and technologies.
+- JavaScript skills are in high demand, providing numerous job opportunities in web development.
+- JavaScript is the foundation of online technology and serves various purposes.
+- It offers an easy entry into programming, with a wealth of job opportunities and projects for learners.
 
-- Allows you to express ideas about code.
-- Can be added to existing code for future reference.
-- Facilitates communication with team members.
-- Can be used for explanations, questions, marking code as "to do" or "to improve," or for debugging.
+### Programming in js.
 
-### The Semi-colon in JavaScript
-- Similar to a period in English, used to delimit parts of the code.
-- Automatic Semi-Colon Insertion (ASI) can fill in missing semi-colons, making them somewhat optional.
-
-### Using the Console in Developer Tools
-- JavaScript can be executed in the browser's Developer Tools.
-- Use Google Chrome for this course.
-- Pressing SHIFT + ENTER allows typing multiple lines of code before running.
-- Outputting a Greeting in the Console
-
-- Use console.log("Hello, World"); to output "Hello, World" in the console.
-- Can style the output using CSS with %c.
-- Outputting Multiple Words in the Console
-
-### Join multiple words (+)
-- Join multiple words using + or use , to separate them in console.log().
-- These points cover the main concepts discussed in the text. Remember to practice these concepts to solidify your understanding.
-
-## VARIABLES
-Efficient Moving Process Analogy:
-
-- Sorting items
-- Packing into boxes
-- Labeling boxes
-- Placing boxes in respective rooms
-Programming and Data Types Analogy:
-
-- Efficient coding = Knowing when/where to use data types
-7 Primitive Data Types in JavaScript:
-- String
-- Number
-- Boolean
-- Null
-- Undefined
-- BigInt
-- Symbol
-- Strings and Numbers:
- 
-Example: E-commerce app for guitars
-- Name, Description -> String
-- Price -> Number
-Understanding Data:
-
-- All values collectively referred to as data
-- Values need to be stored differently based on their nature
-String vs. Number:
-
-- Building a number is straightforward
-- Building a string requires enclosing characters in quotes
-Data Storage Capabilities:
-
-- Number: Wide range, but limited by JavaScript's calculations
-- String: Practically unlimited combinations of characters
-App Example Data Types:
-
-- Price -> Number
-- Name, Description -> Strings (in double quotes)
-Choosing Data Types:
-
-- Strings for titles and descriptions
-- Numbers for values to be calculated
-Additional Data Types:
-
-- Boolean: True or False (for decisions)
-- Null: Represents absence of value
-- Undefined: Refers to unassigned variable
-ES6 Introduces New Data Types:
-
-- BigInt: Accommodates a greater range of numbers than Number
-- Symbol: Unique identifier (like serial numbers on boxes)
-Final Note:
-
-- Understanding when to use each data type is crucial for efficient coding. 
-- Knowing the specific use cases of each data type will improve your coding skills.
-
-## Operators
-- Operators are used to perform operations on variables and values.
-- They manipulate individual data items and return a result.
-- Assignment operators are used for simple and complex calculations.
-- They include addition (+), subtraction (-), division (/), and multiplication (*).
-- Comparison operators compare values and return a logical value based on the comparison.
-- Examples include greater than (>), less than (<), equal to (==), and not equal to (!=).
-- Logical operators determine if something is true or false.
-- Examples include AND (&&), OR (||), and NOT (!).
-- Comments in JavaScript are used to specify which lines to ignore.
-- They are crucial for code readability and documentation.
-- True and false are special values used in JavaScript for logical comparisons.
-- Double equals (==) is used for comparison, while a single equal (=) is used for assignment.
-- Understanding operators is essential for programming in JavaScript.
-
-### Number Operators
-No brackets mean following standard mathematical operations.
-- Addition (+)
-- Subtraction (-)
-- Multiplication (*)
-- Division (/)
-- Modulus (%)
-
-### String literal
-- double quote string ""
-- single quote string ''
-### Boolean data type
-- <,>, ==, ===, !=
-- true || false
-- only compare value > 100 == "100" > true
-- strict equal compare type and value > 100 === "100" > false
-- concatenation operato > +=
-
-### Operator assciatives
-There are two kinds: 
-- left-to-right associativity
-
-- right-to-left associativity
-- var num = 10; // the value on the right is assigned to the variable name on the left
-- 5 > 4 > 3; // the 5 > 4 is evaluated first (to `true`), then true > 3 is evaluated to `false`, because the `true` value is coerced to `1`
+- JavaScript is used in various scenarios, such as in browsers to add interactivity, like updating a shopping cart when a button is clicked.
+- On the server, it powers websites, communicates with databases, and provides functionality to web applications.
+- JavaScript is used to build mobile apps using technologies like React Native and to program Internet of Things (IoT) devices.
+- JavaScript is prevalent in modern technology, with diverse use cases, leading to different implementations tailored to specific problems.
+- In the past, compatibility issues between different browsers resulted in developers having to write separate JavaScript code for each browser.
+- The library named jQuery emerged as a solution to browser incompatibility, allowing developers to write code that worked across all browsers.
+- jQuery became the most popular JavaScript library for over a decade.
+- As web development evolved, new challenges arose, leading to the development of new solutions like React, which had a significant impact on website development.
+- Other technologies and frameworks like Knockout, Backbone, Angular, Ember, Vue, and Alpine also emerged to address web development issues.
+- Legacy code, including old jQuery implementations, can still be found in many existing projects.
+- It's not necessary for beginners to master all JavaScript technologies; they should focus on mastering the basics of plain JavaScript without frameworks before delving into specific frameworks like React.
