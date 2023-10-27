@@ -9,7 +9,7 @@
 - Conditional statements are fundamental tools in JavaScript programming and are essential to master.
 
 ### If and switch
-Conditional Statements:
+- Conditional Statements:
 
 Used to run code based on whether a condition is true or false.
 Example: Using an if statement to check if a number is greater than 40.
