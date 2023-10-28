@@ -30,7 +30,7 @@ clothes.push("Gym");
 
 console.log(clothes[2]);
 
-let favCar = [];
+let favCar = {};
 
 favCar.color = "black";
 favCar.covertible = false;
