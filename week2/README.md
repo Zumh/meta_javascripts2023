@@ -370,3 +370,69 @@ console.log(greet.concat(" ", user)); // Using the concat method
 ```
 Output: "Hello Lisa", "Hello Lisa"
 
+### String cheat sheet
+- length:
+
+Returns the number of characters in a string.
+Example:
+```javascript
+
+var greet = "Hello, ";
+greet.length; // 7
+```
+- charAt(index):
+
+Returns the character at the specified index in the string (zero-based index).
+Example:
+```javascript
+
+greet.charAt(0); // 'H'
+```
+- concat(string):
+
+Joins two or more strings together.
+Example:
+```javascript
+
+"Wo".concat("rl").concat("d"); // 'World'
+```
+- indexOf(character):
+
+Returns the first occurrence index of the specified character in the string.
+Example:
+```javascript
+
+"ho-ho-ho".indexOf('h'); // 0
+"ho-ho-ho".indexOf('o'); // 1
+```
+- lastIndexOf(character):
+
+Returns the last occurrence index of the specified character in the string.
+Example:
+```javascript
+
+"ho-ho-ho".lastIndexOf('o'); // 5
+```
+- split(separator):
+
+Splits a string into an array of substrings based on the specified separator.
+Example:
+```javascript
+
+"ho-ho-ho".split("-"); // ['ho', 'ho', 'ho']
+```
+- toUpperCase():
+
+Converts all characters in the string to uppercase.
+Example:
+```javascript
+
+greet.toUpperCase(); // "HELLO, "
+```
+- toLowerCase():
+
+Converts all characters in the string to lowercase.
+Example:
+```javascript
+greet.toLowerCase(); // "hello, "
+```
