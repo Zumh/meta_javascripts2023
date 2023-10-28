@@ -496,3 +496,35 @@ car.turnTheKey(); // Outputs "The engine is running"
 car.lightsOn();   // Outputs "The lights are on."
 ```
 In summary, objects in JavaScript are collections of properties, which can include methods. Methods are functions defined within an object and can be executed using dot notation and parentheses. This allows for the encapsulation of data and functionality within objects, making them a powerful tool for structuring and organizing code.
+
+## Type of Operator
+
+- The typeof Operator:
+
+The typeof operator is used to identify the data type of a value in JavaScript.
+To use it, you can write typeof followed by the value enclosed within parentheses.
+Examples of typeof Operator:
+
+Different data types are passed as parameters to the typeof operator to demonstrate its usage.
+The results are obtained and printed using the console.log method.
+- Using typeof with Different Data Types:
+
+For a string, typeof "example" returns "string".
+For a number, typeof 42 returns "number".
+For a decimal number, typeof 3.14 also returns "number".
+For a Boolean, typeof true and typeof false both return "boolean".
+- Comparisons as Parameters:
+
+Comparisons like typeof 1 < 2 can be passed as parameters.
+The result is a Boolean data type, so it returns "boolean".
+- Using typeof with Arrays and Objects:
+
+When an array is passed, such as typeof [1, 2, 3], it returns "object". This is because arrays in JavaScript are considered objects.
+Similarly, passing an object like typeof { name: "John" } also returns "object".
+- Using typeof with Functions:
+
+If a function is passed, like typeof function() { }, it returns "function".
+Summary:
+
+The typeof operator is a useful tool to check the data type of values in JavaScript.
+It's important to remember that JavaScript's type system is dynamic, and values can change their type at runtime. The typeof operator helps developers understand the data type of values and is handy for debugging and type-checking in code.
