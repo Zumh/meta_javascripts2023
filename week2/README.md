@@ -436,3 +436,63 @@ Example:
 ```javascript
 greet.toLowerCase(); // "hello, "
 ```
+## Ojbect Methods
+- Objects in JavaScript:
+
+Objects consist of key-value pairs known as properties.
+You can add new key-value pairs to objects using dot notation and the assignment operator.
+Defining Properties:
+
+Example:
+```javascript
+
+var car = {};
+car.color = "red";
+```
+In this example, the color property is added to the car object.
+
+- Methods as Properties:
+
+Functions can be assigned as properties to objects, making them methods.
+Methods are functions that can be accessed only through the object to which they belong.
+Example:
+```javascript
+
+car.turnTheKey = function() {
+    console.log("The engine is running");
+}
+```
+- Accessing Methods:
+
+To execute a method, you need to access it through the object and use parentheses.
+Example:
+```javascript
+
+car.turnTheKey(); // Invoking the method
+```
+- Adding Multiple Properties and Methods:
+
+You can add multiple properties and methods to an object.
+Example:
+```javascript
+
+var car = {};
+car.mileage = 98765;
+car.color = "red";
+car.turnTheKey = function() {
+    console.log("The engine is running");
+}
+car.lightsOn = function() {
+    console.log("The lights are on.");
+}
+```
+- Execution of Methods:
+
+When you invoke a method, the JavaScript engine locates the object, finds the method, and runs the function code.
+Example:
+```javascript
+
+car.turnTheKey(); // Outputs "The engine is running"
+car.lightsOn();   // Outputs "The lights are on."
+```
+In summary, objects in JavaScript are collections of properties, which can include methods. Methods are functions defined within an object and can be executed using dot notation and parentheses. This allows for the encapsulation of data and functionality within objects, making them a powerful tool for structuring and organizing code.
