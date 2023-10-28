@@ -436,7 +436,7 @@ Example:
 ```javascript
 greet.toLowerCase(); // "hello, "
 ```
-## Ojbect Methods
+## Object Methods
 - Objects in JavaScript:
 
 Objects consist of key-value pairs known as properties.
