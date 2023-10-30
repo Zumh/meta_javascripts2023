@@ -528,3 +528,55 @@ Summary:
 
 The typeof operator is a useful tool to check the data type of values in JavaScript.
 It's important to remember that JavaScript's type system is dynamic, and values can change their type at runtime. The typeof operator helps developers understand the data type of values and is handy for debugging and type-checking in code.
+
+## Bugs and Error 
+
+- Bug:
+
+Definition: A bug occurs when a program behaves unexpectedly, but it continues to work.
+Example: Concatenating a string and a number instead of adding them in a function.
+Error Types:
+
+- Syntax Error:
+
+Definition: Occurs when you write code that JavaScript cannot read.
+Example: Missing closing quotation mark in a string declaration.
+
+- Reference Error:
+
+Definition: Occurs when a value is not defined, but you attempt to use it in your code.
+Example: Trying to use variables c and d that have not been declared or assigned.
+
+- Type Error:
+
+Definition: Occurs when you perform an operation on a value of the wrong type.
+Example: Trying to use an array method on a number.
+
+- Error Handling:
+
+Definition: When an error occurs, the program stops execution, and an error message is thrown.
+Example: JavaScript outputs an error message to the console.
+
+- Program Behavior on Error:
+
+Definition: When an error occurs, the program stops execution.
+Example: No further lines of code are executed after an error.
+
+- JavaScript Tools for Error Handling:
+
+Definition: Tools used to catch and handle errors in JavaScript.
+Example: These tools help identify and fix errors in the code.
+
+- Error Reporting:
+
+Definition: JavaScript outputs an error message to the console to help identify the issue.
+Example: "ReferenceError: c is not defined."
+
+- Common Error Types:
+Syntax Error, Type Error, and Reference Error:
+Definition: Different types of errors in JavaScript.
+Example: "SyntaxError: Missing closing quotation mark."
+
+Remember, bugs make the code behave unexpectedly but still allow it to run, while errors stop the program's execution due to faulty code. 
+Error types include syntax, reference, and type errors. 
+JavaScript provides error messages to aid in identifying and resolving issues in the code. 
